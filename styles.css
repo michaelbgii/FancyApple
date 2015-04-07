@@ -1,0 +1,126 @@
+body {font-family: 'myriad pro';
+    font-size: 18px;
+    width: 1440px;
+    margin: 0 auto;
+        background-image: url(applebackground.jpg);
+    background-repeat: no-repeat;
+}
+
+div {position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.home div {
+    width: 1440px;
+    height: 428px;
+    overflow:hidden;
+    text-align: center;
+    color: #fff;
+    /*line-height: 678px;*/
+    padding: 250px 0 0;
+}
+.home h1 {
+    font-size: 67px;
+    margin-bottom: 10px
+}
+ .home a {line-height: 1em;
+     font-size: 21px;
+     display:inline-block;
+ }
+.applepay div {
+    display:inline-block;
+    position:relative;
+    width: 477px;
+    height: 282px;}
+
+.applepay div:nth-of-type(1) {background-image: url(tile1.jpg)}
+.applepay div:nth-of-type(2) {background-image: url(tile2.jpg)}
+.applepay div:nth-of-type(3) {background-image: url(tile3.jpg)}
+
+.applepay div img{
+    position:absolute;
+    top:186px;}
+
+.applecare div{
+    vertical-align: top;
+    width: 1440px;
+    height: 443px;
+    margin: 46px auto;
+    text-align: center;
+}
+.applecare div {
+    display:inline-block;
+    width: 49%;
+}
+.applecare h2 {
+    font-size: 1.5em;
+    line-height: 1.3333333;
+    margin: 0 0 10px 0;
+}
+.applecare p {
+    font-size: 1.125em;
+    line-height: 1.555555;
+    margin: 0 0 10px 0;
+}
+.applecare p:nth-of-type(1) {
+    margin: 0 118px;
+}
+.applecare p:nth-of-type(2) {
+    color: #08C;
+    hover: underline;
+}
+.applecare img {
+    margin-top: 30px;
+}
+.buystrip {
+    width: 1440px;
+    background-color: rgb(242,242,242);
+}
+.buystripsub {
+ width:1440px;
+    text-align: center;
+}
+.buystripsub div {
+    display:inline-block;
+    text-align: center;
+    width: 245px;
+    height: 277px;
+    padding: 0 10px;
+    line-height: 1.5em;
+    vertical-align: top;
+}
+.buystripsub h1 {
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+.buystripsub p {
+    margin-top: .25em;
+    margin-bottom: 1em;
+}
+.buystripsub a {
+    margin-top: .25em;
+    color:rgb(0, 136, 204);
+}
+footer{
+    font-size: 12pt;
+    font-weight: 100;
+    width: 1440px;
+    height: 453PX;
+     background-color: rgb(242,242,242);
+}
+footer h2{
+    font-weight:600;
+    }
+.footerlists {
+    text-align: center;
+}
+.footerlists div {
+    display:inline-block;
+    text-align: left;
+    width: 245px;
+    height:247px;
+    line-height: 1.5em;
+    vertical-align: top;
+}
+footer div:last-of-type {
+}
